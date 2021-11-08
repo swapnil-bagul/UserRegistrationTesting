@@ -21,6 +21,7 @@ namespace UserRegistrationTesting
         //create pattern 
         string pattern = "^[A-Z]{1}[a-z]{2,}$";
 
+        //method for validating
         public string PatternChecking()
         {
             //used Regex predefined class

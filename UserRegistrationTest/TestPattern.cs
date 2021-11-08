@@ -8,14 +8,14 @@ namespace UserRegistrationTest
     public class TestPattern
     {
         /// <summary>
-        /// UC1 FirstName of User
+        /// UC2 LastName of User
         /// first letter of name should be capital
         /// </summary>
         [TestMethod]
-        public void FirstName()
+        public void LastName()
         {
             //arrange
-            string message = "Swapnil";
+            string message = "Bagul";
             string expected = "valid";
 
             //act

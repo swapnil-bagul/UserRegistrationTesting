@@ -18,8 +18,8 @@ namespace UserRegistrationTesting
             this.message = message;
         }
 
-        //create pattern 
-        string pattern = "^[a-z]{3,}@gmail.com";
+        //create pattern for password
+        string pattern = "^(?=.*[0-9])(?=.*[A-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$";
 
         //method for validating
         public string PatternChecking()

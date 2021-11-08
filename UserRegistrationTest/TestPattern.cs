@@ -8,14 +8,14 @@ namespace UserRegistrationTest
     public class TestPattern
     {
         /// <summary>
-        /// UC3 Test Email Id of User
-        /// it must contain @gmail.com 
+        /// UC5 Test password of User
+        /// it must contain special char,number,upper and lowercase alpha 
         /// </summary>
         [TestMethod]
-        public void PhoneNumberTest()
+        public void PasswordTest()
         {
             //arrange
-            string message = "bagulswapnilp@gmail.com";
+            string message = "Swapnil#12";
             //invalid Condition
            //string message = "xyz@gmail";
             string expected = "valid";

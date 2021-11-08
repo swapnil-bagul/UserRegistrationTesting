@@ -8,14 +8,16 @@ namespace UserRegistrationTest
     public class TestPattern
     {
         /// <summary>
-        /// UC2 LastName of User
-        /// first letter of name should be capital
+        /// UC3 Phone Number of User
+        /// prefix of No 91 and No must be 10 digit.
         /// </summary>
         [TestMethod]
-        public void LastName()
+        public void PhoneNumberTest()
         {
             //arrange
-            string message = "Bagul";
+            string message = "91 7410177019";
+            //invalid Condition
+            //string message = " 7410177019";
             string expected = "valid";
 
             //act

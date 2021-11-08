@@ -19,7 +19,7 @@ namespace UserRegistrationTesting
         }
 
         //create pattern 
-        string pattern = "^[A-Z]{1}[a-z]{2,}$";
+        string pattern = "^91[ ][6-9]{1}[0-9]{9}$";
 
         //method for validating
         public string PatternChecking()

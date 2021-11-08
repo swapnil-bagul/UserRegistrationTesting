@@ -8,16 +8,16 @@ namespace UserRegistrationTest
     public class TestPattern
     {
         /// <summary>
-        /// UC3 Phone Number of User
-        /// prefix of No 91 and No must be 10 digit.
+        /// UC3 Test Email Id of User
+        /// it must contain @gmail.com 
         /// </summary>
         [TestMethod]
         public void PhoneNumberTest()
         {
             //arrange
-            string message = "91 7410177019";
+            string message = "bagulswapnilp@gmail.com";
             //invalid Condition
-            //string message = " 7410177019";
+           //string message = "xyz@gmail";
             string expected = "valid";
 
             //act

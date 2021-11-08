@@ -19,7 +19,7 @@ namespace UserRegistrationTesting
         }
 
         //create pattern 
-        string pattern = "^91[ ][6-9]{1}[0-9]{9}$";
+        string pattern = "^[a-z]{3,}@gmail.com";
 
         //method for validating
         public string PatternChecking()
